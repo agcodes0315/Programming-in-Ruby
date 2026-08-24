@@ -6,4 +6,4 @@ puts 2**3 #//Math.pow(2,3) is not supported in Ruby
 puts Math.sqrt(36)
 puts Math.log(1)
 num=15
-puts ("My birthday is on "+num.to_s+"th of January")
+puts ("My birthday is on "+num.to_s+"th of January") #ruby by default considers numbers as integers and not strings. So we need to convert it to string using to_s method
